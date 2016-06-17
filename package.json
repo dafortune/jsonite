@@ -1,0 +1,35 @@
+{
+  "name": "jsonite",
+  "version": "1.0.0",
+  "description": "JSON Builder for command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafortune/jsonite.git"
+  },
+  "author": "Damian Andres Fortuna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dafortune/jsonite/issues"
+  },
+  "homepage": "https://github.com/dafortune/jsonite#readme",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "lodash.foreach": "^4.3.0",
+    "lodash.get": "^4.3.0",
+    "lodash.reduce": "^4.4.0",
+    "lodash.set": "^4.2.0",
+    "yargs": "^4.7.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "jsonite": "index.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
