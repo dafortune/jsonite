@@ -1,5 +1,5 @@
 {
-  "name": "jsonite",
+  "name": "jsonite-shell",
   "version": "1.0.0",
   "description": "JSON Builder for command line",
   "main": "index.js",

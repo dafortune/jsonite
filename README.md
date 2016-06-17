@@ -3,7 +3,7 @@ JSON Builder for command line | Use JSON on your command line, say no to json bl
 
 ## Installation
 ```
-npm install jsonite -g
+npm install jsonite-shell -g
 ```
 
 ## Usage examples
