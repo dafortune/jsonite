@@ -8,6 +8,14 @@ npm install jsonite-shell -g
 
 ## Usage examples
 
+### CURL Example
+Jsonite alone is cool, but working side by side with other tools is great.
+```
+curl -v -H "Content-Type: application/json" -X PUT -d `jsonite key=value` https://webtask.it.auth0.com/api/run/wt-damianfortu-gmail_com-0/jsonite-example
+```
+
+Test it by yourself!
+
 ### Basic
 Simply specify keys and values, that's it
 ```
@@ -89,12 +97,3 @@ jsonite family.age="22" -t family.age=string
 
 Output
 ```{"family":{"age":"22"}}```
-
-## Using with other apps
-Jsonite alone is cool, but working side by side with other tools is great.
-
-### CURL Example
-```
-curl -v -H "Content-Type: application/json" -X PUT -d `jsonite key=value` https://webtask.it.auth0.com/api/run/wt-damianfortu-gmail_com-0/jsonite-example
-```
-Test it by yourself
