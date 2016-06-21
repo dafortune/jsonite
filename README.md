@@ -1,5 +1,4 @@
-# JSONITE
-[![Build Status](https://travis-ci.org/dafortune/jsonite.svg?branch=master)](https://travis-ci.org/dafortune/jsonite)
+# JSONITE [![Build Status](https://travis-ci.org/dafortune/jsonite.svg?branch=master)](https://travis-ci.org/dafortune/jsonite)
 JSON Builder for command line | Use JSON on your command line, say no to json bloat
 
 ## Installation
