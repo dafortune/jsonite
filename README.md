@@ -1,4 +1,5 @@
 # JSONITE
+[![Build Status](https://travis-ci.org/daf-spr/hapi-qs.svg?branch=master)](https://travis-ci.org/daf-spr/hapi-qs)
 JSON Builder for command line | Use JSON on your command line, say no to json bloat
 
 ## Installation
